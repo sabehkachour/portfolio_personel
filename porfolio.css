@@ -1,0 +1,271 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    scrollbar-width: smooth;
+}
+body{
+    background-color:  rgb(21 21 21);
+}
+nav{
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top:0;
+    width: 100%;
+    color:white;
+    font-size: larger;
+    overflow: hidden;
+    padding: 10px;
+    position: fixed;
+    z-index:1000;
+}
+.nav_header{
+    font-size:35px ;
+    letter-spacing: 1px;
+}
+li{
+    display: flex;
+    float:inline-start;
+    overflow: hidden;
+}
+li a{
+    padding: 15px;
+    display:block;
+    color:white;
+}
+li a:hover{
+    color:#ED2279;
+}
+.contact_btn{
+    padding: 10px 30px;
+    color:black;
+    margin-left:8rem;
+    background-color:#ED2279;
+    border-radius: 30px;
+    font-size: large;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+.contact_btn:hover{
+    color:white;
+    border:3px solid #ED2279 ;
+    background-color: transparent;
+}
+.check_btn{
+    float: right;
+    margin-right: 30px;
+    cursor:pointer;
+    display: none;
+}
+.check_box{
+    display: none;
+}
+.home{
+    padding: 220px 100px;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    gap:5rem;}
+.description{
+    padding-top: 20px;}
+.description h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.description h1 span{
+    color:#ED2279;
+    font-size: 55px;
+}
+.description h2{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.description h2 span{
+    color:#ED2279;
+    position: relative;
+}
+.description h2 span:after{
+    position: absolute;
+    left:0;
+    right: 0;
+    height:100%;
+    border-left:4px solid #ED2279;
+    background-color:rgb(21 21 21); } 
+    .description p{
+        width: 500px;
+        margin-top: 20px;
+    }
+    .font i{
+        margin:25px 8px;
+        border: 2px solid #ED2279;
+        border-radius: 50%;
+        padding: 13px;
+        font-size: 20px;
+        cursor: pointer;
+        transition: .4s ease-in-out;
+    }
+    .font i:hover{
+        background-color: #ED2279;
+        transform: translateY(.15px);
+        box-shadow: 0px 0px 15px #ED2279;
+    }
+    .description button{
+        padding: 13px 20px;
+        font-size: 20px;
+        border-radius: 10px;
+        background: linear-gradient( 145deg ,#ED2279,rgb(231,201,35));
+        cursor:pointer;
+        border: none;
+    }
+    .home img{
+        background-color: #ED2279;
+        padding: 10px;
+        border-radius: 50%;
+        box-shadow:0px 0px 30px #ED2279 ;
+        filter: brightness(1.1);
+        transition: .4s ease-in-out;
+    }
+    .home img:hover{
+        box-shadow: 0px 0px 50px #ED2279;
+    }
+    h1.competences_section{
+        margin-top: 5rem;
+        color:white;
+        font-size: 50px;
+        padding-top: 120px;
+        text-align: center;
+    }
+    h1.competences_section span{
+        color:#ED2279;
+    }
+
+    div.card{
+        display:flex;
+        justify-content: space-around;
+        gap:40px;
+        text-align: justify;
+        margin: 100px;
+        color: white;
+        transition: .5s ease;  
+    }
+    .competences-card1{
+        background-color: rgb(48,48,48);
+        padding: 30px;
+        border-radius: 10px;
+        transition: .10s ease;
+
+    }
+    
+    .competences-card1:hover{
+        border:2px solid #ED2279;
+        background-color: #ED2279;
+        transform: translateY(-10px);
+    }
+    .competences-card2{
+        background-color: rgb(48,48,48);
+        padding: 30px;
+        border-radius: 10px;
+        transition: .10s ease;
+
+    }
+    
+    .competences-card2:hover{
+        border:2px solid #ED2279;
+        background-color: #ED2279;
+        transform: translateY(-10px);
+    }
+    .competences-card1 h3{
+        margin-top: 10px;
+        margin-bottom:10px ;
+        font-size: 20px;
+        text-decoration: none;
+    
+
+    }
+    .competences-card2 h3{
+        margin-top: 10px;
+        margin-bottom:10px ;
+        font-size: 20px;
+        text-decoration: none;}
+    
+
+    
+    h1.courses_section{
+        margin-top: 5rem;
+        color:white;
+        font-size: 50px;
+        padding-top: 200px;
+        text-align: center;
+    }
+    h1.courses_section span{
+        color:#ED2279;
+    }
+
+     h3{
+        color:white;
+        font-size: 2.5rem;
+        text-align:right;
+        margin-bottom: 40px;
+       text-align:left;
+    }
+    p{
+        font-size: 1.1rem;
+        line-height: 1.8;
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto;
+        color:white;
+    }
+    .form h1{
+        margin:150px 0px 40px 0px;
+        text-align: center;
+        color: white;
+        font-size: 50px;
+        padding-top: 80px;
+    }
+    .form h1 span{
+        color: #ED2279;
+    }
+    .form input,textarea{
+        width: 550px;
+        margin: 10px 340px;
+        padding: 15px;
+        background-color: rgb(63,63,63);
+        font-size: 18px;
+        color:white;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .form .form_btn{
+        padding: 15px 50px;
+        font-size: 20px;
+        background-color: #ED2279;
+        margin: 1.5rem 33rem;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px #ED2279;
+        cursor:pointer;
+        border: none;
+        transition: .3s ease;
+    }
+    .form .form_btn:hover{
+        background: transparent;
+        border: 2px solid #ED2279;
+        color: white;
+    }
+    
+    .footer{
+        height: 80px;
+        padding-top: 30px;
+        text-align:center;
+    }
+
+   
+
+    
+ 
